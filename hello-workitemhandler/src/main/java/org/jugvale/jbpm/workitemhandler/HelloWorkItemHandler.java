@@ -15,7 +15,7 @@ public class HelloWorkItemHandler implements WorkItemHandler {
 
 	public void executeWorkItem(WorkItem wi, WorkItemManager wim) {
 		System.out.println("Hello World!");
-		wim.completeWorkItem(wi.getId(), new HashMap<String, Object>());
+		wim.completeWorkItem(wi.getId(), null);
 	}
 
 }
