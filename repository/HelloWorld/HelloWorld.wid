@@ -1,0 +1,12 @@
+import org.drools.core.process.core.datatype.impl.type.StringDataType;
+[
+  [
+    "name" : "HelloWorld",
+    "description" : "Prints hello World in the console",
+    "displayName" : "Hello World!",
+    "defaultHandler" : "mvel: new org.jugvale.jbpm.workitemhandler.HelloWorkItemHandler()",
+    "mavenDependencies" : [
+          "org.jugvale.jbpm.workitemhandler:hello-workitemhandler:1.0"
+     ]
+  ]
+]
